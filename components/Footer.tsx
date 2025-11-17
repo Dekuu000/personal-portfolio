@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-center md:text-left">
             <p className="text-sm md:text-base">
-              © {currentYear} Personal Portfolio. All rights reserved.
+              © {currentYear} Rommel Jackson Alipao. All rights reserved.
             </p>
           </div>
           <div className="flex items-center gap-4">
