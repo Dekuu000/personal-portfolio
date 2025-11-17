@@ -61,7 +61,7 @@ export default function About() {
         <div className="mb-16">
           <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 md:p-12 border border-gray-200 dark:border-gray-700">
             <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-8">
-              Hi, I'm <span className="font-semibold text-gray-900 dark:text-white">Rommel Jackson Alipao</span>—a results-oriented developer dedicated to building modern web solutions that solve real business challenges. As a fourth-year IT student, I specialize in creating seamless user experiences and robust, scalable applications across both frontend and backend environments.
+              Hi, I&apos;m <span className="font-semibold text-gray-900 dark:text-white">Rommel Jackson Alipao</span>—a results-oriented developer dedicated to building modern web solutions that solve real business challenges. As a fourth-year IT student, I specialize in creating seamless user experiences and robust, scalable applications across both frontend and backend environments.
             </p>
 
             <div className="mb-8">
@@ -113,7 +113,7 @@ export default function About() {
                 What I Offer
               </h3>
               <p className="text-lg md:text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
-                If you're looking for a developer who combines technical depth with creative problem-solving—ready to contribute, adapt, and help your business thrive—I'd be excited to be part of your team or project. Let's connect and build solutions that make a difference!
+                If you&apos;re looking for a developer who combines technical depth with creative problem-solving—ready to contribute, adapt, and help your business thrive—I&apos;d be excited to be part of your team or project. Let&apos;s connect and build solutions that make a difference!
               </p>
             </div>
           </div>
