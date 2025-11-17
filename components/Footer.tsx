@@ -30,7 +30,7 @@ export default function Footer() {
               <Linkedin className="w-5 h-5" />
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/Dekuu000"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-lg bg-gray-800 hover:bg-gray-700 transition-colors"
