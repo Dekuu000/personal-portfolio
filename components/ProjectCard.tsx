@@ -20,9 +20,9 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-gray-200 dark:border-gray-700">
+    <div className="bg-white/90 dark:bg-slate-900/90 backdrop-blur-sm rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden border border-slate-200 dark:border-slate-800">
       {/* Image Section */}
-      <div className="relative h-48 md:h-64 bg-gradient-to-br from-blue-100 to-purple-100 dark:from-gray-700 dark:to-gray-800">
+      <div className="relative h-48 md:h-64 bg-gradient-to-br from-primary-50 to-secondary-50 dark:from-slate-800 dark:to-slate-700">
         {project.imageUrl ? (
           <Image
             src={project.imageUrl}
@@ -40,11 +40,10 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         )}
         <div className="absolute top-4 right-4">
           <span
-            className={`px-3 py-1 rounded-full text-xs font-semibold ${
-              project.status === "Finished"
+            className={`px-3 py-1 rounded-full text-xs font-semibold ${project.status === "Finished"
                 ? "bg-green-500 text-white"
                 : "bg-yellow-500 text-gray-900"
-            }`}
+              }`}
           >
             {project.status}
           </span>
@@ -54,10 +53,10 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       {/* Content Section */}
       <div className="p-6">
         <div className="flex items-start justify-between mb-3">
-          <h3 className="text-xl md:text-2xl font-bold text-gray-900 dark:text-white">
+          <h3 className="text-xl md:text-2xl font-bold text-slate-900 dark:text-white">
             {project.title}
           </h3>
-          <span className="text-sm text-gray-500 dark:text-gray-400 font-medium">
+          <span className="text-sm text-slate-500 dark:text-slate-400 font-medium">
             {project.year}
           </span>
         </div>
@@ -67,7 +66,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
           {project.techStack.map((tech) => (
             <span
               key={tech}
-              className="px-2 py-1 bg-blue-100 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-xs rounded-md font-medium"
+              className="px-2 py-1 bg-primary-50 dark:bg-primary-900/20 text-primary-700 dark:text-primary-300 text-xs rounded-md font-medium"
             >
               {tech}
             </span>
@@ -75,7 +74,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </div>
 
         {/* Description */}
-        <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
+        <p className="text-slate-700 dark:text-slate-300 mb-4 leading-relaxed">
           {project.description}
         </p>
 
@@ -92,8 +91,8 @@ export default function ProjectCard({ project }: ProjectCardProps) {
         </div>
 
         {/* Impact */}
-        <div className="mb-4 p-3 bg-purple-50 dark:bg-purple-900/20 rounded-lg">
-          <p className="text-sm text-gray-700 dark:text-gray-300 italic">
+        <div className="mb-4 p-3 bg-secondary-50 dark:bg-secondary-900/20 rounded-lg">
+          <p className="text-sm text-slate-700 dark:text-slate-300 italic">
             {project.impact}
           </p>
         </div>
@@ -116,7 +115,7 @@ export default function ProjectCard({ project }: ProjectCardProps) {
               href={project.liveUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all text-sm font-medium"
+              className="flex items-center gap-2 px-4 py-2 bg-gradient-primary text-white rounded-lg hover:opacity-90 transition-all text-sm font-medium"
             >
               <ExternalLink className="w-4 h-4" />
               Live Demo

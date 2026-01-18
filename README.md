@@ -4,12 +4,13 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 ## Features
 
-- 🎨 Modern blue/purple gradient design
-- 🌓 Dark/Light mode toggle
-- 📱 Fully responsive design
-- ⚡ Smooth scroll navigation
-- 🚀 Built with Next.js 14+ (App Router)
-- 💻 TypeScript for type safety
+- 🎨 **Modern Professional Design**: Sleek Slate/Indigo/Violet palette with glassmorphism effects.
+- 🌓 **Dark/Light Mode**: Fully themeable UI with smooth transitions and deep dark mode.
+- 📬 **Interactive Contact Form**: Built-in validation and success feedback.
+- 📱 **Fully Responsive**: Optimized for all devices from mobile to desktop.
+- ⚡ **High Performance**: Built with Next.js 14+ (App Router) and optimized assets.
+- � **Freelance Integration**: Direct links to Upwork and Fiverr profiles.
+- 💻 **Type Safety**: Full TypeScript support.
 
 ## Getting Started
 
